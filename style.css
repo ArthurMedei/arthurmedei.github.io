@@ -1,23 +1,59 @@
- .menu {
-        font-family: 'Noto Sans HK', sans-serif;
-        font-size: 18px;
-        text-align: center;
-      }
-      .menu > a {
-        text-decoration: none;
-        color: black;
-        margin-right: 20px;
-      }
-      .menu > a:visited {
-        color: green;
-      }
-      .menu > a:hover {
-        color: blue;
-      }
-      .h1 {
-        font-family: 'Merriweather', serif;
-        padding-bottom: 5;
-        border-bottom: 2px dotted black;
-        }
+.largura {
+  width: 700px;
+  margin: auto;
+}
 
-      
+.menu {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: bisque;
+  margin-right: 20px;
+}
+
+.menu > a:visited {
+  color: rgb(41, 145, 128);
+}
+
+.menu > a:hover {
+  color: rgb(190, 212, 153)
+}
+
+h1, h2,  {
+  font-family: 'Pacifico', cursive;
+  padding-bottom:5px;
+  border-bottom: 2px dotted black;
+  margin-top: 200px;
+}
+
+.conteudo {
+  font-family: 'Patrick Hand', cursive;
+  line-height: 32px;
+}
+
+.img-principal {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.selecionado {
+  border-bottom: 2px dotted rgb(41, 145, 128);
+}
+p {
+   font-family: 'Pacifico', cursive;
+}
+H3 {
+  font-family: 'Pacifico', cursive;
+  color: purple;
+}
+h2{
+   font-family: 'Pacifico', cursive;
+   color: rgb(211, 241, 10);
+}
